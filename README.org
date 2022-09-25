@@ -4,11 +4,24 @@ Common code for Java beans, used in my other projects. Having this code in a lib
 
 ** Status of the project
 
-[[https://travis-ci.org/steinarb/beans][file:https://travis-ci.org/steinarb/beans.svg?branch=master]] [[https://coveralls.io/r/steinarb/beans][file:https://coveralls.io/repos/steinarb/beans/badge.svg]] [[https://sonarcloud.io/dashboard?id=no.priv.bang.beans%3Abeans][file:https://sonarcloud.io/api/project_badges/measure?project=no.priv.bang.beans%3Abeans&metric=alert_status#.svg]] [[https://maven-badges.herokuapp.com/maven-central/no.priv.bang.beans/beans][file:https://maven-badges.herokuapp.com/maven-central/no.priv.bang.beans/beans/badge.svg]] [[https://www.javadoc.io/doc/no.priv.bang.beans/beans][file:https://www.javadoc.io/badge/no.priv.bang.beans/beans.svg]]
+[[https://github.com/steinarb/beans/actions/workflows/beans-maven-ci-build.yml][file:https://github.com/steinarb/beans/actions/workflows/beans-maven-ci-build.yml/badge.svg]]
+[[https://coveralls.io/github/steinarb/beans][file:https://coveralls.io/repos/github/steinarb/beans/badge.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=alert_status#.svg]]
+[[https://maven-badges.herokuapp.com/maven-central/no.priv.bang.beans/beans][file:https://maven-badges.herokuapp.com/maven-central/no.priv.bang.beans/beans/badge.svg]]
+[[https://www.javadoc.io/doc/no.priv.bang.beans/beans][file:https://www.javadoc.io/badge/no.priv.bang.beans/beans.svg]]
 
-*** Sonarqube
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/images/project_badges/sonarcloud-white.svg]]
 
-[[https://sonarcloud.io/dashboard?id=no.priv.bang.beans%3Abeans][file:https://sonarcloud.io/api/project_badges/measure?project=no.priv.bang.beans%3Abeans&metric=ncloc#.svg]] [[https://sonarcloud.io/dashboard?id=no.priv.bang.beans%3Abeans][file:https://sonarcloud.io/api/project_badges/measure?project=no.priv.bang.beans%3Abeans&metric=bugs#.svg]] [[https://sonarcloud.io/dashboard?id=no.priv.bang.beans%3Abeans][file:https://sonarcloud.io/api/project_badges/measure?project=no.priv.bang.beans%3Abeans&metric=vulnerabilities#.svg]] [[https://sonarcloud.io/dashboard?id=no.priv.bang.beans%3Abeans][file:https://sonarcloud.io/api/project_badges/measure?project=no.priv.bang.beans%3Abeans&metric=code_smells#.svg]] [[https://sonarcloud.io/dashboard?id=no.priv.bang.beans%3Abeans][file:https://sonarcloud.io/api/project_badges/measure?project=no.priv.bang.beans%3Abeans&metric=coverage#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=sqale_index#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=coverage#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=ncloc#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=code_smells#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=sqale_rating#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=security_rating#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=bugs#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=vulnerabilities#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=duplicated_lines_density#.svg]]
+[[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=reliability_rating#.svg]]
 
 ** Release history
 
