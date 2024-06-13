@@ -1,6 +1,6 @@
 package no.priv.bang.beans.immutable;
 /*
- * Copyright 2019-2021 Steinar Bang
+ * Copyright 2019-2024 Steinar Bang
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,8 +41,8 @@ class ImmutableTest {
 
     @Test
     void testIntBeanIdenticalFields() {
-        IntBean bean1 = new IntBean(1, 42);
-        IntBean bean2 = new IntBean(1, 42);
+        var bean1 = new IntBean(1, 42);
+        var bean2 = new IntBean(1, 42);
         assertEquals(bean1.hashCode(), bean2.hashCode());
         assertEquals(bean1, bean2);
         assertNotEquals(0, bean1.hashCode());
@@ -50,28 +50,28 @@ class ImmutableTest {
 
     @Test
     void testIntBeanNull() {
-        IntBean bean1 = new IntBean(1, 42);
+        var bean1 = new IntBean(1, 42);
         IntBean nullBean = null;
         assertNotEquals(bean1, nullBean);
     }
 
     @Test
     void testIntBeanDifferentClass() {
-        IntBean bean1 = new IntBean(1, 42);
-        String notABean = "not a bean";
+        var bean1 = new IntBean(1, 42);
+        var notABean = "not a bean";
         assertNotEquals(bean1, notABean); // NOSONAR The entire point here is to test bean equals against an instance of different class
     }
 
     @Test
     void testIntBeanSameBean() {
-        IntBean bean1 = new IntBean(1, 42);
+        var bean1 = new IntBean(1, 42);
         assertEquals(bean1, bean1); // NOSONAR The entire point here is to test bean equals against the same instance
     }
 
     @Test
     void testIntBeanIFieldsNotdentical() {
-        IntBean bean1 = new IntBean(1, 42);
-        IntBean bean2 = new IntBean(0, 43);
+        var bean1 = new IntBean(1, 42);
+        var bean2 = new IntBean(0, 43);
         assertNotEquals(bean1.hashCode(), bean2.hashCode());
         assertNotEquals(bean1, bean2);
         assertNotEquals(0, bean2.hashCode());

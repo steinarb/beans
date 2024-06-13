@@ -1,5 +1,5 @@
 /*
- * Copyright 2021-2022 Steinar Bang
+ * Copyright 2021-2023 Steinar Bang
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,6 @@ import org.junit.runner.RunWith;
 import org.ops4j.pax.exam.Configuration;
 import org.ops4j.pax.exam.Option;
 import org.ops4j.pax.exam.junit.PaxExam;
-import org.ops4j.pax.exam.options.MavenArtifactUrlReference;
 import org.ops4j.pax.exam.spi.reactors.ExamReactorStrategy;
 import org.ops4j.pax.exam.spi.reactors.PerClass;
 
@@ -36,13 +35,13 @@ public class BeansIntegrationTest extends KarafTestSupport {
 
     @Configuration
     public Option[] config() {
-        final MavenArtifactUrlReference immutableBeansFeatureRepo = maven()
+        final var immutableBeansFeatureRepo = maven()
             .groupId("no.priv.bang.beans")
             .artifactId("beans.immutable")
             .version("LATEST")
             .type("xml")
             .classifier("features");
-        Option[] options = new Option[] {
+        var options = new Option[] {
             features(immutableBeansFeatureRepo)
         };
         return Stream.of(super.config(), options).flatMap(Stream::of).toArray(Option[]::new);
