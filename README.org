@@ -7,7 +7,7 @@ Common code for Java beans, used in my other projects. Having this code in a lib
 [[https://github.com/steinarb/beans/actions/workflows/beans-maven-ci-build.yml][file:https://github.com/steinarb/beans/actions/workflows/beans-maven-ci-build.yml/badge.svg]]
 [[https://coveralls.io/github/steinarb/beans][file:https://coveralls.io/repos/github/steinarb/beans/badge.svg]]
 [[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/api/project_badges/measure?project=steinarb_beans&metric=alert_status#.svg]]
-[[https://maven-badges.herokuapp.com/maven-central/no.priv.bang.beans/beans][file:https://maven-badges.herokuapp.com/maven-central/no.priv.bang.beans/beans/badge.svg]]
+[[https://maven-badges.sml.io/sonatype-central/no.priv.bang.beans/beans][file:https://maven-badges.sml.io/sonatype-central/no.priv.bang.beans/beans/badge.svg]]
 [[https://www.javadoc.io/doc/no.priv.bang.beans/beans][file:https://www.javadoc.io/badge/no.priv.bang.beans/beans.svg]]
 
 [[https://sonarcloud.io/summary/new_code?id=steinarb_beans][file:https://sonarcloud.io/images/project_badges/sonarcloud-white.svg]]
