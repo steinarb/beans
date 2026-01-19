@@ -1,5 +1,5 @@
 /*
- * Copyright 2021-2023 Steinar Bang
+ * Copyright 2021-2025 Steinar Bang
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,6 +33,7 @@ import org.ops4j.pax.exam.spi.reactors.PerClass;
 @ExamReactorStrategy(PerClass.class)
 public class BeansIntegrationTest extends KarafTestSupport {
 
+    @Override
     @Configuration
     public Option[] config() {
         final var immutableBeansFeatureRepo = maven()
